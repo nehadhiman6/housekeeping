@@ -1,0 +1,1 @@
+import{q as r,o as a,e as i,r as l,n as c,m as p}from"./app-92be7c25.js";const d={__name:"IconButton",props:{icon:{type:String,default:"fa fa-edit"}},setup(o){const s=o,n=r(()=>s.icon+" cursor-pointer");return(e,t)=>(a(),i("i",{class:c(n.value),onClick:t[0]||(t[0]=p(u=>e.$emit("buttonClicked"),["prevent"]))},[l(e.$slots,"default")],2))}};export{d as default};

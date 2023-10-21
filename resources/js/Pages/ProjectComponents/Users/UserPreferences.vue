@@ -1,16 +1,12 @@
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue';
 import UpdateProfileInformationForm from '@/Pages/Profile/Partials/UpdateProfileInformationForm.vue';
-import NewRecordButton from '@/Components/CustomComponents/Buttons/NewRecordButton.vue';
-import TitleComponent from '@/Components/CustomComponents/Sections/TitleComponent.vue';
-import SubmitButton from '@/Components/CustomComponents/Buttons/SubmitButton.vue';
 import SectionBorder from '@/Components/SectionBorder.vue';
-import UserForm from '@/Pages/Users/UserForm.vue';
 import FormSection from '@/Components/FormSection.vue';
 import InputError from '@/Components/InputError.vue';
 import InputLabel from '@/Components/InputLabel.vue';
 import { ref, onMounted, reactive } from 'vue';
-import globalMixin from '../../globalMixin';
+import globalMixin from '../../../globalMixin';
 import { Inertia } from '@inertiajs/inertia';
 
 const data = reactive( { create_url:'user-preferences' });

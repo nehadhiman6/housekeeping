@@ -1,0 +1,1 @@
+import{_ as a}from"./_plugin-vue_export-helper-c27b6911.js";import{o as e,e as o,n as r}from"./app-92be7c25.js";const t={props:{paddingClass:{default:"my-8"}}};function n(c,l,s,p,d,i){return e(),o("div",{class:r("border-b "+s.paddingClass)},null,2)}const m=a(t,[["render",n]]);export{m as default};

@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper-c27b6911.js";const e={props:{department:Object,machineTypes:Array,getCount:Function},computed:{rowspan(){return this.department.areas.length*2}}};function r(n,o,a,p,s,c){return null}const _=t(e,[["render",r]]);export{_ as default};

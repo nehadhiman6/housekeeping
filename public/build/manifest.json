@@ -1,90 +1,106 @@
 {
-  "_ActionMessage-95a1c62b.js": {
-    "file": "assets/ActionMessage-95a1c62b.js",
+  "ImagePreview.css": {
+    "file": "assets/ImagePreview-c211b866.css",
+    "src": "ImagePreview.css"
+  },
+  "_ActionMessage-db6e5410.js": {
+    "file": "assets/ActionMessage-db6e5410.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_AppLayout-5b1fa947.js": {
-    "file": "assets/AppLayout-5b1fa947.js",
+  "_AppLayout-44e5a529.js": {
+    "file": "assets/AppLayout-44e5a529.js",
     "imports": [
       "resources/js/app.js",
-      "__plugin-vue_export-helper-c27b6911.js"
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "_index-4bb81809.js"
     ]
   },
-  "_AuthenticationCard-20b751cb.js": {
-    "file": "assets/AuthenticationCard-20b751cb.js",
+  "_AuthenticationCard-f2e2d156.js": {
+    "file": "assets/AuthenticationCard-f2e2d156.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/app.js"
     ]
   },
-  "_AuthenticationCardLogo-907b93f1.js": {
-    "file": "assets/AuthenticationCardLogo-907b93f1.js",
+  "_AuthenticationCardLogo-3a17e24a.js": {
+    "file": "assets/AuthenticationCardLogo-3a17e24a.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_Checkbox-44a4608c.js": {
-    "file": "assets/Checkbox-44a4608c.js",
+  "_Checkbox-9f4f660c.js": {
+    "file": "assets/Checkbox-9f4f660c.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_DangerButton-b33a316a.js": {
-    "file": "assets/DangerButton-b33a316a.js",
+  "_DangerButton-28c522ce.js": {
+    "file": "assets/DangerButton-28c522ce.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_DialogModal-5765c857.js": {
-    "file": "assets/DialogModal-5765c857.js",
+  "_DialogModal-bba618ea.js": {
+    "file": "assets/DialogModal-bba618ea.js",
     "imports": [
-      "_SectionTitle-b635c5ea.js",
+      "_SectionTitle-1316b580.js",
       "resources/js/app.js"
     ]
   },
-  "_FormSection-7d51ba70.js": {
-    "file": "assets/FormSection-7d51ba70.js",
+  "_FormSection-5f998c96.js": {
+    "file": "assets/FormSection-5f998c96.js",
     "imports": [
       "resources/js/app.js",
-      "_SectionTitle-b635c5ea.js"
+      "_SectionTitle-1316b580.js"
     ]
   },
-  "_InputLabel-c428374c.js": {
-    "file": "assets/InputLabel-c428374c.js",
+  "_InputError-fee228bf.js": {
+    "file": "assets/InputError-fee228bf.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_PrimaryButton-13d0bd70.js": {
-    "file": "assets/PrimaryButton-13d0bd70.js",
+  "_InputLabel-0a4a7d68.js": {
+    "file": "assets/InputLabel-0a4a7d68.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_SecondaryButton-0da9b13e.js": {
-    "file": "assets/SecondaryButton-0da9b13e.js",
+  "_PrimaryButton-553d4e94.js": {
+    "file": "assets/PrimaryButton-553d4e94.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_SectionBorder-e5ce83aa.js": {
-    "file": "assets/SectionBorder-e5ce83aa.js",
+  "_SecondaryButton-598dd5eb.js": {
+    "file": "assets/SecondaryButton-598dd5eb.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_SectionBorder-7cfac49c.js": {
+    "file": "assets/SectionBorder-7cfac49c.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/app.js"
     ]
   },
-  "_SectionTitle-b635c5ea.js": {
-    "file": "assets/SectionTitle-b635c5ea.js",
+  "_SectionTitle-1316b580.js": {
+    "file": "assets/SectionTitle-1316b580.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/app.js"
     ]
   },
-  "_TextInput-37ad47aa.js": {
-    "file": "assets/TextInput-37ad47aa.js",
+  "_TextInput-aac82f99.js": {
+    "file": "assets/TextInput-aac82f99.js",
     "imports": [
       "resources/js/app.js"
     ]
@@ -92,271 +108,1632 @@
   "__plugin-vue_export-helper-c27b6911.js": {
     "file": "assets/_plugin-vue_export-helper-c27b6911.js"
   },
+  "_globalMixin-827f0fbc.js": {
+    "file": "assets/globalMixin-827f0fbc.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_index-4bb81809.js": {
+    "file": "assets/index-4bb81809.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_lg-thumbnail.es5-23dc7a40.js": {
+    "file": "assets/lg-thumbnail.es5-23dc7a40.js"
+  },
+  "node_modules/lightgallery/fonts/lg.svg": {
+    "file": "assets/lg-f2fe1c00.svg",
+    "src": "node_modules/lightgallery/fonts/lg.svg"
+  },
+  "node_modules/lightgallery/fonts/lg.ttf": {
+    "file": "assets/lg-22b72ba5.ttf",
+    "src": "node_modules/lightgallery/fonts/lg.ttf"
+  },
+  "node_modules/lightgallery/fonts/lg.woff": {
+    "file": "assets/lg-fefc5c0d.woff",
+    "src": "node_modules/lightgallery/fonts/lg.woff"
+  },
+  "node_modules/lightgallery/fonts/lg.woff2": {
+    "file": "assets/lg-965a0e5f.woff2",
+    "src": "node_modules/lightgallery/fonts/lg.woff2"
+  },
+  "node_modules/lightgallery/images/loading.gif": {
+    "file": "assets/loading-298ad3ff.gif",
+    "src": "node_modules/lightgallery/images/loading.gif"
+  },
   "resources/js/Pages/API/Index.vue": {
-    "file": "assets/Index-c1621f11.js",
+    "file": "assets/Index-1015b43a.js",
     "imports": [
       "resources/js/Pages/API/Partials/ApiTokenManager.vue",
-      "_AppLayout-5b1fa947.js",
+      "_AppLayout-44e5a529.js",
       "resources/js/app.js",
-      "_ActionMessage-95a1c62b.js",
-      "_DialogModal-5765c857.js",
-      "_SectionTitle-b635c5ea.js",
+      "_ActionMessage-db6e5410.js",
+      "_DialogModal-bba618ea.js",
+      "_SectionTitle-1316b580.js",
       "__plugin-vue_export-helper-c27b6911.js",
-      "_Checkbox-44a4608c.js",
-      "_DangerButton-b33a316a.js",
-      "_FormSection-7d51ba70.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
-      "_SecondaryButton-0da9b13e.js",
-      "_SectionBorder-e5ce83aa.js"
+      "_Checkbox-9f4f660c.js",
+      "_DangerButton-28c522ce.js",
+      "_FormSection-5f998c96.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_SecondaryButton-598dd5eb.js",
+      "_SectionBorder-7cfac49c.js",
+      "_TextInput-aac82f99.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "_index-4bb81809.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/API/Index.vue"
   },
   "resources/js/Pages/API/Partials/ApiTokenManager.vue": {
-    "file": "assets/ApiTokenManager-417228e4.js",
+    "file": "assets/ApiTokenManager-3952e317.js",
     "imports": [
       "resources/js/app.js",
-      "_ActionMessage-95a1c62b.js",
-      "_DialogModal-5765c857.js",
-      "_Checkbox-44a4608c.js",
-      "_DangerButton-b33a316a.js",
-      "_FormSection-7d51ba70.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
-      "_SecondaryButton-0da9b13e.js",
-      "_SectionBorder-e5ce83aa.js",
-      "_SectionTitle-b635c5ea.js",
+      "_ActionMessage-db6e5410.js",
+      "_DialogModal-bba618ea.js",
+      "_Checkbox-9f4f660c.js",
+      "_DangerButton-28c522ce.js",
+      "_FormSection-5f998c96.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_SecondaryButton-598dd5eb.js",
+      "_SectionBorder-7cfac49c.js",
+      "_TextInput-aac82f99.js",
+      "_SectionTitle-1316b580.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/API/Partials/ApiTokenManager.vue"
   },
+  "resources/js/Pages/AttachmentComponents/AttachmentUploadModal.vue": {
+    "css": [
+      "assets/ImagePreview-c211b866.css"
+    ],
+    "file": "assets/AttachmentUploadModal-e0f1d3c3.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "resources/js/Pages/AttachmentComponents/Pond.vue",
+      "resources/js/Pages/CustomComponents/Sections/Modal.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Buttons/IconButton.vue",
+      "_lg-thumbnail.es5-23dc7a40.js",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/AttachmentComponents/AttachmentUploadModal.vue"
+  },
+  "resources/js/Pages/AttachmentComponents/ImagePreview.vue": {
+    "css": [
+      "assets/ImagePreview-c211b866.css"
+    ],
+    "file": "assets/ImagePreview-dc115c98.js",
+    "imports": [
+      "_lg-thumbnail.es5-23dc7a40.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/AttachmentComponents/ImagePreview.vue"
+  },
+  "resources/js/Pages/AttachmentComponents/ImagePreview1.css": {
+    "file": "assets/ImagePreview1-1eefc2dc.css",
+    "src": "resources/js/Pages/AttachmentComponents/ImagePreview1.css"
+  },
+  "resources/js/Pages/AttachmentComponents/ImagePreview1.vue": {
+    "assets": [
+      "assets/lg-965a0e5f.woff2",
+      "assets/lg-22b72ba5.ttf",
+      "assets/lg-fefc5c0d.woff",
+      "assets/lg-f2fe1c00.svg",
+      "assets/loading-298ad3ff.gif"
+    ],
+    "css": [
+      "assets/ImagePreview1-1eefc2dc.css"
+    ],
+    "file": "assets/ImagePreview1-1152f91a.js",
+    "imports": [
+      "_lg-thumbnail.es5-23dc7a40.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/AttachmentComponents/ImagePreview1.vue"
+  },
+  "resources/js/Pages/AttachmentComponents/Pond.css": {
+    "file": "assets/Pond-389461cb.css",
+    "src": "resources/js/Pages/AttachmentComponents/Pond.css"
+  },
+  "resources/js/Pages/AttachmentComponents/Pond.vue": {
+    "css": [
+      "assets/Pond-389461cb.css"
+    ],
+    "file": "assets/Pond-92ab9999.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/AttachmentComponents/Pond.vue"
+  },
   "resources/js/Pages/Auth/ConfirmPassword.vue": {
-    "file": "assets/ConfirmPassword-4d8e6ce2.js",
+    "file": "assets/ConfirmPassword-15150376.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticationCard-20b751cb.js",
-      "_AuthenticationCardLogo-907b93f1.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
+      "_AuthenticationCard-f2e2d156.js",
+      "_AuthenticationCardLogo-3a17e24a.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_TextInput-aac82f99.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ConfirmPassword.vue"
   },
   "resources/js/Pages/Auth/ForgotPassword.vue": {
-    "file": "assets/ForgotPassword-47a6988e.js",
+    "file": "assets/ForgotPassword-da5287a2.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticationCard-20b751cb.js",
-      "_AuthenticationCardLogo-907b93f1.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
+      "_AuthenticationCard-f2e2d156.js",
+      "_AuthenticationCardLogo-3a17e24a.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_TextInput-aac82f99.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ForgotPassword.vue"
   },
   "resources/js/Pages/Auth/Login.vue": {
-    "file": "assets/Login-e4c2d2d4.js",
+    "file": "assets/Login-38f10486.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticationCard-20b751cb.js",
-      "_AuthenticationCardLogo-907b93f1.js",
-      "_Checkbox-44a4608c.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
+      "_AuthenticationCard-f2e2d156.js",
+      "_Checkbox-9f4f660c.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_TextInput-aac82f99.js",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/Login.vue"
   },
   "resources/js/Pages/Auth/Register.vue": {
-    "file": "assets/Register-8aca58fd.js",
+    "file": "assets/Register-17d4cf3b.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticationCard-20b751cb.js",
-      "_AuthenticationCardLogo-907b93f1.js",
-      "_Checkbox-44a4608c.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
+      "_AuthenticationCard-f2e2d156.js",
+      "_AuthenticationCardLogo-3a17e24a.js",
+      "_Checkbox-9f4f660c.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_TextInput-aac82f99.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/Register.vue"
   },
   "resources/js/Pages/Auth/ResetPassword.vue": {
-    "file": "assets/ResetPassword-f227a7de.js",
+    "file": "assets/ResetPassword-6db997e1.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticationCard-20b751cb.js",
-      "_AuthenticationCardLogo-907b93f1.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
+      "_AuthenticationCard-f2e2d156.js",
+      "_AuthenticationCardLogo-3a17e24a.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_TextInput-aac82f99.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ResetPassword.vue"
   },
   "resources/js/Pages/Auth/TwoFactorChallenge.vue": {
-    "file": "assets/TwoFactorChallenge-2ae07287.js",
+    "file": "assets/TwoFactorChallenge-a710557d.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticationCard-20b751cb.js",
-      "_AuthenticationCardLogo-907b93f1.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
+      "_AuthenticationCard-f2e2d156.js",
+      "_AuthenticationCardLogo-3a17e24a.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_TextInput-aac82f99.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/TwoFactorChallenge.vue"
   },
   "resources/js/Pages/Auth/VerifyEmail.vue": {
-    "file": "assets/VerifyEmail-a9bae2e3.js",
+    "file": "assets/VerifyEmail-8c8b23b3.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticationCard-20b751cb.js",
-      "_AuthenticationCardLogo-907b93f1.js",
-      "_PrimaryButton-13d0bd70.js",
+      "_AuthenticationCard-f2e2d156.js",
+      "_AuthenticationCardLogo-3a17e24a.js",
+      "_PrimaryButton-553d4e94.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/VerifyEmail.vue"
   },
-  "resources/js/Pages/Dashboard.vue": {
-    "file": "assets/Dashboard-9efdfa69.js",
+  "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue": {
+    "file": "assets/ButtonComp-7a3fe749.js",
     "imports": [
-      "_AppLayout-5b1fa947.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue"
+  },
+  "resources/js/Pages/CustomComponents/Buttons/IconButton.vue": {
+    "file": "assets/IconButton-924cc06d.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Buttons/IconButton.vue"
+  },
+  "resources/js/Pages/CustomComponents/Forms/CheckboxInput.vue": {
+    "file": "assets/CheckboxInput-75e356eb.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Forms/CheckboxInput.vue"
+  },
+  "resources/js/Pages/CustomComponents/Forms/DatePicker.vue": {
+    "file": "assets/DatePicker-3e693273.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Forms/DatePicker.vue"
+  },
+  "resources/js/Pages/CustomComponents/Forms/InputLabel.vue": {
+    "file": "assets/InputLabel-69092e66.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Forms/InputLabel.vue"
+  },
+  "resources/js/Pages/CustomComponents/Forms/RadioInput.vue": {
+    "file": "assets/RadioInput-b4d696db.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Forms/RadioInput.vue"
+  },
+  "resources/js/Pages/CustomComponents/Forms/SelectInput.vue": {
+    "file": "assets/SelectInput-e436eb1f.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Forms/SelectInput.vue"
+  },
+  "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue": {
+    "file": "assets/TextAreaInput-5805d6a7.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue"
+  },
+  "resources/js/Pages/CustomComponents/Forms/TextInput.vue": {
+    "file": "assets/TextInput-414aae93.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Forms/TextInput.vue"
+  },
+  "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue": {
+    "file": "assets/SideDropDownItemLink-cd206ce4.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue"
+  },
+  "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue": {
+    "file": "assets/SideNavDropDown-3a860ee4.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue"
+  },
+  "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue": {
+    "file": "assets/SideNavLink-7f5d99b7.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue"
+  },
+  "resources/js/Pages/CustomComponents/Layout/TabLink.vue": {
+    "file": "assets/TabLink-b0c94377.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Layout/TabLink.vue"
+  },
+  "resources/js/Pages/CustomComponents/Layout/UpperNavLink.vue": {
+    "file": "assets/UpperNavLink-2b7e1e80.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Layout/UpperNavLink.vue"
+  },
+  "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue": {
+    "file": "assets/BreadCrumbs-ba3968f1.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-4bb81809.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue"
+  },
+  "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue": {
+    "file": "assets/ProjectLogo-ab93dec1.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue"
+  },
+  "resources/js/Pages/CustomComponents/Others/Search.vue": {
+    "file": "assets/Search-8343a695.js",
+    "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Others/Search.vue"
+  },
+  "resources/js/Pages/CustomComponents/Others/Seprator.vue": {
+    "file": "assets/Seprator-017a9f6e.js",
+    "imports": [
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Others/Seprator.vue"
+  },
+  "resources/js/Pages/CustomComponents/Others/TitleComponent.vue": {
+    "file": "assets/TitleComponent-4ca32250.js",
+    "imports": [
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Others/TitleComponent.vue"
+  },
+  "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue": {
+    "file": "assets/FilterWrapper-3eb81350.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue"
+  },
+  "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue": {
+    "file": "assets/FormWrapper-5c0db3ce.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue"
+  },
+  "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue": {
+    "file": "assets/ListWrapper-0c2f9604.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue"
+  },
+  "resources/js/Pages/CustomComponents/Sections/Modal.vue": {
+    "file": "assets/Modal-6df8922c.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Sections/Modal.vue"
+  },
+  "resources/js/Pages/CustomComponents/Sections/TableComponent.vue": {
+    "file": "assets/TableComponent-82c3ee82.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/CustomComponents/Sections/TableComponent.vue"
+  },
+  "resources/js/Pages/Dashboard.vue": {
+    "file": "assets/Dashboard-174adab7.js",
+    "imports": [
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/MachineSummary.vue",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "_index-4bb81809.js"
+    ],
+    "isDynamicEntry": true,
     "src": "resources/js/Pages/Dashboard.vue"
   },
-  "resources/js/Pages/PrivacyPolicy.vue": {
-    "file": "assets/PrivacyPolicy-96787a50.js",
+  "resources/js/Pages/DepartmentRow.vue": {
+    "file": "assets/DepartmentRow-02bebb4e.js",
+    "imports": [
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/DepartmentRow.vue"
+  },
+  "resources/js/Pages/MachineSummary.css": {
+    "file": "assets/MachineSummary-e3b0c442.css",
+    "src": "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.css"
+  },
+  "resources/js/Pages/MachineSummary.vue": {
+    "css": [
+      "assets/MachineSummary-e3b0c442.css"
+    ],
+    "file": "assets/MachineSummary-361437b4.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticationCardLogo-907b93f1.js"
+      "_globalMixin-827f0fbc.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/MachineSummary.vue"
+  },
+  "resources/js/Pages/PrivacyPolicy.vue": {
+    "file": "assets/PrivacyPolicy-2c74e71a.js",
+    "imports": [
+      "resources/js/app.js",
+      "_AuthenticationCardLogo-3a17e24a.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/PrivacyPolicy.vue"
   },
   "resources/js/Pages/Profile/Partials/DeleteUserForm.vue": {
-    "file": "assets/DeleteUserForm-bced9244.js",
+    "file": "assets/DeleteUserForm-aee170be.js",
     "imports": [
       "resources/js/app.js",
-      "_DialogModal-5765c857.js",
-      "_DangerButton-b33a316a.js",
-      "_TextInput-37ad47aa.js",
-      "_SecondaryButton-0da9b13e.js",
-      "_SectionTitle-b635c5ea.js",
+      "_DialogModal-bba618ea.js",
+      "_DangerButton-28c522ce.js",
+      "_InputError-fee228bf.js",
+      "_SecondaryButton-598dd5eb.js",
+      "_TextInput-aac82f99.js",
+      "_SectionTitle-1316b580.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.vue"
   },
   "resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue": {
-    "file": "assets/LogoutOtherBrowserSessionsForm-66864ecb.js",
+    "file": "assets/LogoutOtherBrowserSessionsForm-684e17b3.js",
     "imports": [
       "resources/js/app.js",
-      "_ActionMessage-95a1c62b.js",
-      "_DialogModal-5765c857.js",
-      "_TextInput-37ad47aa.js",
-      "_PrimaryButton-13d0bd70.js",
-      "_SecondaryButton-0da9b13e.js",
-      "_SectionTitle-b635c5ea.js",
+      "_ActionMessage-db6e5410.js",
+      "_DialogModal-bba618ea.js",
+      "_InputError-fee228bf.js",
+      "_PrimaryButton-553d4e94.js",
+      "_SecondaryButton-598dd5eb.js",
+      "_TextInput-aac82f99.js",
+      "_SectionTitle-1316b580.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue"
   },
   "resources/js/Pages/Profile/Partials/TwoFactorAuthenticationForm.vue": {
-    "file": "assets/TwoFactorAuthenticationForm-64aac8eb.js",
+    "file": "assets/TwoFactorAuthenticationForm-b4aaf7cd.js",
     "imports": [
       "resources/js/app.js",
-      "_DialogModal-5765c857.js",
-      "_TextInput-37ad47aa.js",
-      "_PrimaryButton-13d0bd70.js",
-      "_SecondaryButton-0da9b13e.js",
-      "_DangerButton-b33a316a.js",
-      "_InputLabel-c428374c.js",
-      "_SectionTitle-b635c5ea.js",
+      "_DialogModal-bba618ea.js",
+      "_InputError-fee228bf.js",
+      "_PrimaryButton-553d4e94.js",
+      "_SecondaryButton-598dd5eb.js",
+      "_TextInput-aac82f99.js",
+      "_DangerButton-28c522ce.js",
+      "_InputLabel-0a4a7d68.js",
+      "_SectionTitle-1316b580.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/TwoFactorAuthenticationForm.vue"
   },
   "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue": {
-    "file": "assets/UpdatePasswordForm-49a3d585.js",
+    "file": "assets/UpdatePasswordForm-631cdde0.js",
     "imports": [
       "resources/js/app.js",
-      "_ActionMessage-95a1c62b.js",
-      "_FormSection-7d51ba70.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
-      "_SectionTitle-b635c5ea.js",
+      "_ActionMessage-db6e5410.js",
+      "_FormSection-5f998c96.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_TextInput-aac82f99.js",
+      "_SectionTitle-1316b580.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue"
   },
   "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue": {
-    "file": "assets/UpdateProfileInformationForm-bd1ac8d7.js",
+    "file": "assets/UpdateProfileInformationForm-a0591943.js",
     "imports": [
       "resources/js/app.js",
-      "_ActionMessage-95a1c62b.js",
-      "_FormSection-7d51ba70.js",
-      "_TextInput-37ad47aa.js",
-      "_InputLabel-c428374c.js",
-      "_PrimaryButton-13d0bd70.js",
-      "_SecondaryButton-0da9b13e.js",
-      "_SectionTitle-b635c5ea.js",
+      "_ActionMessage-db6e5410.js",
+      "_FormSection-5f998c96.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_PrimaryButton-553d4e94.js",
+      "_SecondaryButton-598dd5eb.js",
+      "_TextInput-aac82f99.js",
+      "_SectionTitle-1316b580.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue"
   },
   "resources/js/Pages/Profile/Show.vue": {
-    "file": "assets/Show-4b30ec13.js",
+    "file": "assets/Show-efcd1c3f.js",
     "imports": [
-      "_AppLayout-5b1fa947.js",
+      "_AppLayout-44e5a529.js",
       "resources/js/Pages/Profile/Partials/DeleteUserForm.vue",
       "resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue",
-      "_SectionBorder-e5ce83aa.js",
+      "_SectionBorder-7cfac49c.js",
       "resources/js/Pages/Profile/Partials/TwoFactorAuthenticationForm.vue",
       "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue",
       "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue",
       "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "_index-4bb81809.js",
+      "_DialogModal-bba618ea.js",
+      "_SectionTitle-1316b580.js",
       "__plugin-vue_export-helper-c27b6911.js",
-      "_DialogModal-5765c857.js",
-      "_SectionTitle-b635c5ea.js",
-      "_DangerButton-b33a316a.js",
-      "_TextInput-37ad47aa.js",
-      "_SecondaryButton-0da9b13e.js",
-      "_ActionMessage-95a1c62b.js",
-      "_PrimaryButton-13d0bd70.js",
-      "_InputLabel-c428374c.js",
-      "_FormSection-7d51ba70.js"
+      "_DangerButton-28c522ce.js",
+      "_InputError-fee228bf.js",
+      "_SecondaryButton-598dd5eb.js",
+      "_TextInput-aac82f99.js",
+      "_ActionMessage-db6e5410.js",
+      "_PrimaryButton-553d4e94.js",
+      "_InputLabel-0a4a7d68.js",
+      "_FormSection-5f998c96.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Show.vue"
   },
-  "resources/js/Pages/TermsOfService.vue": {
-    "file": "assets/TermsOfService-696aca6a.js",
+  "resources/js/Pages/ProjectComponents/Case/CaseForm.vue": {
+    "file": "assets/CaseForm-b9a29904.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/AreaSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Case/CaseForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Case/CaseList.vue": {
+    "file": "assets/CaseList-84462daa.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticationCardLogo-907b93f1.js"
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Case/CaseForm.vue",
+      "resources/js/Pages/ProjectComponents/Case/MachineCaseFilter.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/AreaSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Case/CaseList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Case/MachineCaseFilter.vue": {
+    "file": "assets/MachineCaseFilter-0d4013be.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Case/MachineCaseFilter.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Machines/Machine/DepartmentChange.vue": {
+    "file": "assets/DepartmentChange-30ecf7c8.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/AreaSelect.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Machines/Machine/DepartmentChange.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Machines/Machine/MachineFilter.vue": {
+    "file": "assets/MachineFilter-3833d24f.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/BrandSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/AreaSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Machines/Machine/MachineFilter.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Machines/Machine/MachineForm.vue": {
+    "file": "assets/MachineForm-44e44a0a.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/BrandSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/AreaSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Machines/Machine/MachineForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Machines/Machine/MachineList.vue": {
+    "file": "assets/MachineList-5f328645.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Sections/Modal.vue",
+      "resources/js/Pages/ProjectComponents/Machines/Machine/MachineForm.vue",
+      "resources/js/Pages/ProjectComponents/Machines/Machine/MachineFilter.vue",
+      "resources/js/Pages/ProjectComponents/Case/CaseForm.vue",
+      "resources/js/Pages/ProjectComponents/Machines/Machine/DepartmentChange.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/BrandSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/AreaSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineSelect.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Machines/Machine/MachineList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Area/AreaForm.css": {
+    "file": "assets/MachineSummary-e3b0c442.css",
+    "src": "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.css"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Area/AreaForm.vue": {
+    "css": [
+      "assets/MachineSummary-e3b0c442.css"
+    ],
+    "file": "assets/AreaForm-06562c9a.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/app.js",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentUserSelect.vue",
+      "_globalMixin-827f0fbc.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Area/AreaForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Area/AreaList.vue": {
+    "file": "assets/AreaList-b40f30fb.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "resources/js/app.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Area/AreaForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentUserSelect.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Area/AreaList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Brand/BrandForm.vue": {
+    "file": "assets/BrandForm-3f4de806.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Brand/BrandForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Brand/BrandList.vue": {
+    "file": "assets/BrandList-633fd392.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Brand/BrandForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "_InputError-fee228bf.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Brand/BrandList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Department/DepartmentForm.vue": {
+    "file": "assets/DepartmentForm-f5601a14.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Department/DepartmentForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Department/DepartmentList.vue": {
+    "file": "assets/DepartmentList-4d1bdcae.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Department/DepartmentForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "_InputError-fee228bf.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Department/DepartmentList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/MachineModel/MachineModelForm.vue": {
+    "css": [
+      "assets/ImagePreview-c211b866.css"
+    ],
+    "file": "assets/MachineModelForm-21ac2d15.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/BrandSelect.vue",
+      "resources/js/Pages/AttachmentComponents/AttachmentUploadModal.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "resources/js/Pages/AttachmentComponents/Pond.vue",
+      "resources/js/Pages/CustomComponents/Sections/Modal.vue",
+      "resources/js/Pages/CustomComponents/Buttons/IconButton.vue",
+      "_lg-thumbnail.es5-23dc7a40.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/MachineModel/MachineModelForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/MachineModel/MachineModelList.vue": {
+    "css": [
+      "assets/ImagePreview-c211b866.css"
+    ],
+    "file": "assets/MachineModelList-98fbf57c.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Masters/MachineModel/MachineModelForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/BrandSelect.vue",
+      "resources/js/Pages/AttachmentComponents/AttachmentUploadModal.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "resources/js/Pages/AttachmentComponents/Pond.vue",
+      "resources/js/Pages/CustomComponents/Sections/Modal.vue",
+      "resources/js/Pages/CustomComponents/Buttons/IconButton.vue",
+      "_lg-thumbnail.es5-23dc7a40.js",
+      "_InputError-fee228bf.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/MachineModel/MachineModelList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/MachineType/MachineTypeForm.vue": {
+    "file": "assets/MachineTypeForm-3ebf1276.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/MachineType/MachineTypeForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/MachineType/MachineTypeList.vue": {
+    "file": "assets/MachineTypeList-0674286c.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Masters/MachineType/MachineTypeForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "_InputError-fee228bf.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/MachineType/MachineTypeList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Maintenance/MaintenanceForm.css": {
+    "file": "assets/MachineSummary-e3b0c442.css",
+    "src": "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.css"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Maintenance/MaintenanceForm.vue": {
+    "css": [
+      "assets/MachineSummary-e3b0c442.css"
+    ],
+    "file": "assets/MaintenanceForm-28be10ac.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Maintenance/MaintenanceForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Maintenance/MaintenanceList.css": {
+    "file": "assets/MachineSummary-e3b0c442.css",
+    "src": "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.css"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Maintenance/MaintenanceList.vue": {
+    "css": [
+      "assets/MachineSummary-e3b0c442.css"
+    ],
+    "file": "assets/MaintenanceList-92a80600.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Maintenance/MaintenanceForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "_InputError-fee228bf.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Maintenance/MaintenanceList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Problem/ProblemForm.css": {
+    "file": "assets/MachineSummary-e3b0c442.css",
+    "src": "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.css"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Problem/ProblemForm.vue": {
+    "css": [
+      "assets/MachineSummary-e3b0c442.css"
+    ],
+    "file": "assets/ProblemForm-712ae0fd.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Problem/ProblemForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/Problem/ProblemList.vue": {
+    "file": "assets/ProblemList-f5dd75c8.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Problem/ProblemForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "_InputError-fee228bf.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/Problem/ProblemList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionForm.css": {
+    "file": "assets/MachineSummary-e3b0c442.css",
+    "src": "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.css"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionForm.vue": {
+    "css": [
+      "assets/MachineSummary-e3b0c442.css"
+    ],
+    "file": "assets/ResolvingActionForm-460985d4.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.css": {
+    "file": "assets/MachineSummary-e3b0c442.css",
+    "src": "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.css"
+  },
+  "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.vue": {
+    "css": [
+      "assets/MachineSummary-e3b0c442.css"
+    ],
+    "file": "assets/ResolvingActionList-57bed9b2.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "_InputError-fee228bf.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Reports/Case/CaseFilter.vue": {
+    "file": "assets/CaseFilter-afb10de9.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Reports/Case/CaseFilter.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Reports/Case/CaseReport.vue": {
+    "file": "assets/CaseReport-24d53ed6.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/ProjectComponents/Reports/Case/CaseFilter.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Reports/Case/CaseReport.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Reports/Machine/MachineReport.vue": {
+    "file": "assets/MachineReport-f9efa810.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/ProjectComponents/Reports/Case/CaseFilter.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Reports/Machine/MachineReport.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Reports/Machine/MachineSummaryReport.vue": {
+    "file": "assets/MachineSummaryReport-a97ad6fa.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Reports/Case/CaseFilter.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Reports/Machine/MachineSummaryReport.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Reports/ReportNav.vue": {
+    "file": "assets/ReportNav-c44b67b9.js",
+    "imports": [
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/UpperNavLink.vue",
+      "_globalMixin-827f0fbc.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Reports/ReportNav.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Reports/Service/ServiceReport.vue": {
+    "file": "assets/ServiceReport-e5d3b393.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/ProjectComponents/Reports/Case/CaseFilter.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Reports/Service/ServiceReport.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Roles/RoleList.vue": {
+    "file": "assets/RoleList-b67300f2.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/ProjectComponents/Users/UserNav.vue",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Layout/UpperNavLink.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Roles/RoleList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Roles/RolePermission.vue": {
+    "file": "assets/RolePermission-d7f83d94.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Forms/CheckboxInput.vue",
+      "resources/js/Pages/CustomComponents/Others/TitleComponent.vue",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Users/UserNav.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "__plugin-vue_export-helper-c27b6911.js",
+      "resources/js/Pages/CustomComponents/Layout/UpperNavLink.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Roles/RolePermission.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/AreaSelect.vue": {
+    "file": "assets/AreaSelect-d5b0446d.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/AreaSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/BrandSelect.vue": {
+    "file": "assets/BrandSelect-79e0fe45.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/BrandSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue": {
+    "file": "assets/DepartmentSelect-20b0fcb3.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentUserSelect.vue": {
+    "file": "assets/DepartmentUserSelect-bb848c24.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentUserSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue": {
+    "file": "assets/MachineModelSelect-8f2a2e9e.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/MachineSelect.vue": {
+    "file": "assets/MachineSelect-7875d756.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/MachineSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue": {
+    "file": "assets/MachineTypeSelect-12373e3f.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/MaintenanceSelect.vue": {
+    "file": "assets/MaintenanceSelect-75de202f.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/MaintenanceSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/ProblemsSelect.vue": {
+    "file": "assets/ProblemsSelect-72709c7e.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/ProblemsSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/ResolvingActionSelect.vue": {
+    "file": "assets/ResolvingActionSelect-a72f660b.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/ResolvingActionSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/SelectComponents/RoleSelect.vue": {
+    "file": "assets/RoleSelect-f025f0ec.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/SelectComponents/RoleSelect.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Services/CaseCard.vue": {
+    "file": "assets/CaseCard-ae1d1e8e.js",
+    "imports": [
+      "resources/js/app.js",
+      "_globalMixin-827f0fbc.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Services/CaseCard.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Services/ServiceCard.vue": {
+    "file": "assets/ServiceCard-1e088737.js",
+    "imports": [
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Services/ServiceCard.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Services/ServiceForm.vue": {
+    "file": "assets/ServiceForm-9961b7cd.js",
+    "imports": [
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/ProblemsSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/ResolvingActionSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MaintenanceSelect.vue",
+      "resources/js/Pages/ProjectComponents/Services/CaseCard.vue",
+      "resources/js/Pages/CustomComponents/Forms/RadioInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/CheckboxInput.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "_index-4bb81809.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Services/ServiceForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Services/ServiceFormOuter.vue": {
+    "file": "assets/ServiceFormOuter-97cb349f.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/ProjectComponents/Services/ServiceForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/ProblemsSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/ResolvingActionSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MaintenanceSelect.vue",
+      "resources/js/Pages/ProjectComponents/Services/CaseCard.vue",
+      "resources/js/Pages/CustomComponents/Forms/RadioInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/CheckboxInput.vue",
+      "_InputError-fee228bf.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Services/ServiceFormOuter.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Services/ServicesList.vue": {
+    "file": "assets/ServicesList-66b4b958.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/ProjectComponents/Services/CaseCard.vue",
+      "resources/js/Pages/ProjectComponents/Services/ServiceCard.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Services/ServicesList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Users/UserAvatar.vue": {
+    "file": "assets/UserAvatar-38f1d9a2.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Users/UserAvatar.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Users/UserDepartments.vue": {
+    "file": "assets/UserDepartments-139bb68a.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/ProjectComponents/Users/UserNav.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Layout/UpperNavLink.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Users/UserDepartments.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Users/UserForm.vue": {
+    "file": "assets/UserForm-c1817380.js",
+    "imports": [
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "_InputError-fee228bf.js",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Users/UserForm.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Users/UserList.vue": {
+    "file": "assets/UserList-26387fc3.js",
+    "imports": [
+      "_index-4bb81809.js",
+      "_AppLayout-44e5a529.js",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/ProjectComponents/Users/UserForm.vue",
+      "_globalMixin-827f0fbc.js",
+      "resources/js/Pages/ProjectComponents/Users/UserNav.vue",
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "_InputError-fee228bf.js",
+      "resources/js/Pages/CustomComponents/Layout/UpperNavLink.vue"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Users/UserList.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Users/UserNav.vue": {
+    "file": "assets/UserNav-1c365146.js",
+    "imports": [
+      "resources/js/app.js",
+      "resources/js/Pages/CustomComponents/Layout/UpperNavLink.vue",
+      "_globalMixin-827f0fbc.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Users/UserNav.vue"
+  },
+  "resources/js/Pages/ProjectComponents/Users/UserPreferences.vue": {
+    "file": "assets/UserPreferences-a35ab46d.js",
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-44e5a529.js",
+      "_FormSection-5f998c96.js",
+      "_InputError-fee228bf.js",
+      "_InputLabel-0a4a7d68.js",
+      "_SectionBorder-7cfac49c.js",
+      "_globalMixin-827f0fbc.js",
+      "_index-4bb81809.js",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "_SectionTitle-1316b580.js",
+      "__plugin-vue_export-helper-c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ProjectComponents/Users/UserPreferences.vue"
+  },
+  "resources/js/Pages/TermsOfService.vue": {
+    "file": "assets/TermsOfService-6da65640.js",
+    "imports": [
+      "resources/js/app.js",
+      "_AuthenticationCardLogo-3a17e24a.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/TermsOfService.vue"
@@ -369,7 +1746,7 @@
     "css": [
       "assets/Welcome-665689a9.css"
     ],
-    "file": "assets/Welcome-1e310c36.js",
+    "file": "assets/Welcome-1305290f.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -377,16 +1754,20 @@
     "src": "resources/js/Pages/Welcome.vue"
   },
   "resources/js/app.css": {
-    "file": "assets/app-79a90f94.css",
+    "file": "assets/app-f06b6b27.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
     "css": [
-      "assets/app-79a90f94.css"
+      "assets/app-f06b6b27.css"
     ],
     "dynamicImports": [
       "resources/js/Pages/API/Index.vue",
       "resources/js/Pages/API/Partials/ApiTokenManager.vue",
+      "resources/js/Pages/AttachmentComponents/AttachmentUploadModal.vue",
+      "resources/js/Pages/AttachmentComponents/ImagePreview.vue",
+      "resources/js/Pages/AttachmentComponents/ImagePreview1.vue",
+      "resources/js/Pages/AttachmentComponents/Pond.vue",
       "resources/js/Pages/Auth/ConfirmPassword.vue",
       "resources/js/Pages/Auth/ForgotPassword.vue",
       "resources/js/Pages/Auth/Login.vue",
@@ -394,7 +1775,33 @@
       "resources/js/Pages/Auth/ResetPassword.vue",
       "resources/js/Pages/Auth/TwoFactorChallenge.vue",
       "resources/js/Pages/Auth/VerifyEmail.vue",
+      "resources/js/Pages/CustomComponents/Buttons/ButtonComp.vue",
+      "resources/js/Pages/CustomComponents/Buttons/IconButton.vue",
+      "resources/js/Pages/CustomComponents/Forms/CheckboxInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/DatePicker.vue",
+      "resources/js/Pages/CustomComponents/Forms/InputLabel.vue",
+      "resources/js/Pages/CustomComponents/Forms/RadioInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/SelectInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextAreaInput.vue",
+      "resources/js/Pages/CustomComponents/Forms/TextInput.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideDropDownItemLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavDropDown.vue",
+      "resources/js/Pages/CustomComponents/Layout/SideNavLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/TabLink.vue",
+      "resources/js/Pages/CustomComponents/Layout/UpperNavLink.vue",
+      "resources/js/Pages/CustomComponents/Others/BreadCrumbs.vue",
+      "resources/js/Pages/CustomComponents/Others/ProjectLogo.vue",
+      "resources/js/Pages/CustomComponents/Others/Search.vue",
+      "resources/js/Pages/CustomComponents/Others/Seprator.vue",
+      "resources/js/Pages/CustomComponents/Others/TitleComponent.vue",
+      "resources/js/Pages/CustomComponents/Sections/FilterWrapper.vue",
+      "resources/js/Pages/CustomComponents/Sections/FormWrapper.vue",
+      "resources/js/Pages/CustomComponents/Sections/ListWrapper.vue",
+      "resources/js/Pages/CustomComponents/Sections/Modal.vue",
+      "resources/js/Pages/CustomComponents/Sections/TableComponent.vue",
       "resources/js/Pages/Dashboard.vue",
+      "resources/js/Pages/DepartmentRow.vue",
+      "resources/js/Pages/MachineSummary.vue",
       "resources/js/Pages/PrivacyPolicy.vue",
       "resources/js/Pages/Profile/Partials/DeleteUserForm.vue",
       "resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue",
@@ -402,10 +1809,63 @@
       "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue",
       "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue",
       "resources/js/Pages/Profile/Show.vue",
+      "resources/js/Pages/ProjectComponents/Case/CaseForm.vue",
+      "resources/js/Pages/ProjectComponents/Case/CaseList.vue",
+      "resources/js/Pages/ProjectComponents/Case/MachineCaseFilter.vue",
+      "resources/js/Pages/ProjectComponents/Machines/Machine/DepartmentChange.vue",
+      "resources/js/Pages/ProjectComponents/Machines/Machine/MachineFilter.vue",
+      "resources/js/Pages/ProjectComponents/Machines/Machine/MachineForm.vue",
+      "resources/js/Pages/ProjectComponents/Machines/Machine/MachineList.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Area/AreaForm.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Area/AreaList.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Brand/BrandForm.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Brand/BrandList.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Department/DepartmentForm.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Department/DepartmentList.vue",
+      "resources/js/Pages/ProjectComponents/Masters/MachineModel/MachineModelForm.vue",
+      "resources/js/Pages/ProjectComponents/Masters/MachineModel/MachineModelList.vue",
+      "resources/js/Pages/ProjectComponents/Masters/MachineType/MachineTypeForm.vue",
+      "resources/js/Pages/ProjectComponents/Masters/MachineType/MachineTypeList.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Maintenance/MaintenanceForm.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Maintenance/MaintenanceList.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Problem/ProblemForm.vue",
+      "resources/js/Pages/ProjectComponents/Masters/Problem/ProblemList.vue",
+      "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionForm.vue",
+      "resources/js/Pages/ProjectComponents/Masters/ResolvingAction/ResolvingActionList.vue",
+      "resources/js/Pages/ProjectComponents/Reports/Case/CaseFilter.vue",
+      "resources/js/Pages/ProjectComponents/Reports/Case/CaseReport.vue",
+      "resources/js/Pages/ProjectComponents/Reports/Machine/MachineReport.vue",
+      "resources/js/Pages/ProjectComponents/Reports/Machine/MachineSummaryReport.vue",
+      "resources/js/Pages/ProjectComponents/Reports/ReportNav.vue",
+      "resources/js/Pages/ProjectComponents/Reports/Service/ServiceReport.vue",
+      "resources/js/Pages/ProjectComponents/Roles/RoleList.vue",
+      "resources/js/Pages/ProjectComponents/Roles/RolePermission.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/AreaSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/BrandSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/DepartmentUserSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineModelSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MachineTypeSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/MaintenanceSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/ProblemsSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/ResolvingActionSelect.vue",
+      "resources/js/Pages/ProjectComponents/SelectComponents/RoleSelect.vue",
+      "resources/js/Pages/ProjectComponents/Services/CaseCard.vue",
+      "resources/js/Pages/ProjectComponents/Services/ServiceCard.vue",
+      "resources/js/Pages/ProjectComponents/Services/ServiceForm.vue",
+      "resources/js/Pages/ProjectComponents/Services/ServiceFormOuter.vue",
+      "resources/js/Pages/ProjectComponents/Services/ServicesList.vue",
+      "resources/js/Pages/ProjectComponents/Users/UserAvatar.vue",
+      "resources/js/Pages/ProjectComponents/Users/UserDepartments.vue",
+      "resources/js/Pages/ProjectComponents/Users/UserForm.vue",
+      "resources/js/Pages/ProjectComponents/Users/UserList.vue",
+      "resources/js/Pages/ProjectComponents/Users/UserNav.vue",
+      "resources/js/Pages/ProjectComponents/Users/UserPreferences.vue",
       "resources/js/Pages/TermsOfService.vue",
       "resources/js/Pages/Welcome.vue"
     ],
-    "file": "assets/app-1baa7aff.js",
+    "file": "assets/app-92be7c25.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
